@@ -1,0 +1,37 @@
+.parent-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  #calculator {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: aliceblue;
+  }
+  
+  #output {
+    padding: 10px;
+    background-color: #eee;
+  }
+  
+  #buttons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #buttons button {
+    flex: 1;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #buttons button:hover {
+    background-color: #ccc;
+  }
+  
