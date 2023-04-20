@@ -1,15 +1,14 @@
 .parent-element {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the height of the parent element to the full viewport height */
   }
-
   
   #calculator {
-    width: 300px;
-    margin: 0 auto;
-    text-align: center;
-    background-color: aliceblue;
+  width: 300px;
+  text-align: center;
+  background-color: aliceblue;
   }
   
   #output {
